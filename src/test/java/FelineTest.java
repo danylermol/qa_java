@@ -25,8 +25,8 @@ public class FelineTest {
     @Test
     public void getKittensReturnsCorrectValue() throws Exception{
         Feline feline = new Feline();
-        int expected = 123;
-        assertEquals(expected, feline.getKittens(123));
+        int expected = 12;
+        assertEquals(expected, feline.getKittens(12));
     }
 
     @Test
